@@ -38,8 +38,18 @@ const GET_LANDING_PAGE = /* GraphQL */ `
       techIcons {
         title
         icon {
+          alternativeText
           url
         }
+      }
+    }
+  }
+
+  fragment sectionConcepts on LandingPage {
+    sectionConcepts {
+      title
+      concepts {
+        title
       }
     }
   }
@@ -50,6 +60,7 @@ const GET_LANDING_PAGE = /* GraphQL */ `
       ...header
       ...sectionAboutProject
       ...sectionTech
+      ...sectionConcepts
     }
   }
 `
