@@ -16,7 +16,7 @@ export const User = styled.div`
   display: flex;
 `
 
-export const Image = styled.picture`
+export const Image = styled.img`
   img {
     width: 5rem;
     height: 5rem;
