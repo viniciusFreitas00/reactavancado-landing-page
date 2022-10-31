@@ -11,6 +11,11 @@ export type Review = {
   }
 }
 
+export type Questions = {
+  question: string
+  answer: string
+}
+
 export type SocialLink = {
   title: string
   url: string
@@ -102,6 +107,11 @@ export type SectionReviewsProps = {
   reviews: Review[]
 }
 
+export type SectionFaqProps = {
+  title: string
+  questions: Questions[]
+}
+
 export type LandingPageProps = {
   logo: Image
   header: HeaderProps
@@ -113,4 +123,5 @@ export type LandingPageProps = {
   pricingBox: PricingBoxProps
   sectionAboutUs: SectionAboutUsProps
   sectionReviews: SectionReviewsProps
+  sectionFaq: SectionFaqProps
 }

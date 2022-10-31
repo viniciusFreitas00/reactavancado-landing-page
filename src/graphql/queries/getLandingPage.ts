@@ -140,6 +140,7 @@ const GET_LANDING_PAGE = /* GraphQL */ `
       ...pricingBox
       ...sectionAboutUs
       ...sectionReviews
+      ...sectionFaq
     }
   }
 `

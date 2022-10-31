@@ -17,11 +17,9 @@ export const User = styled.div`
 `
 
 export const Image = styled.img`
-  img {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 100%;
-  }
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
 `
 
 export const Name = styled.p`
