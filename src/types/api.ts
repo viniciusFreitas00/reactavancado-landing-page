@@ -3,6 +3,8 @@ export type Image = {
   url: string
 }
 
+export type LogoProps = Image
+
 export type Review = {
   name: string
   text: string
